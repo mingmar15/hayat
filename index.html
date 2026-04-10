@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hayat Hotel — Boudha, Kathmandu</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <img class="logo-img" src="images/logo.png" alt="Hayat Hotel Logo">
+        <div>
+          <span class="logo-name">Hayat</span>
+          <span class="logo-sub">HOTEL & SUITES</span>
+        </div>
+      </div>
+      <button class="burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#booking" class="btn-book" id="navBookBtn">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="mandala-ring ring-1"></div>
+      <div class="mandala-ring ring-2"></div>
+      <div class="mandala-ring ring-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Boudha · Kathmandu · Nepal</p>
+      <h1 class="hero-title">
+        Where the Stupa<br/>
+        <em>Meets Serenity</em>
+      </h1>
+      <p class="hero-desc">
+        Nestled beside the sacred Boudhanath Stupa, Hayat Hotel offers an unparalleled sanctuary of calm luxury amidst the heartbeat of Kathmandu.
+      </p>
+      <div class="hero-actions">
+        <a href="#booking" class="btn-primary">Reserve Your Stay</a>
+        <a href="#about" class="btn-ghost">Discover More</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-badge">
+      <span class="badge-stars">★★★★★</span>
+      <span class="badge-text">Five-Star Luxury</span>
+    </div>
+  </section>
+
+  <!-- ═══ STATS BAR ═══ -->
+  <section class="stats-bar">
+    <div class="stat">
+      <span class="stat-num">48</span>
+      <span class="stat-label">Luxury Rooms</span>
+    </div>
+    <div class="stat-divider">✦</div>
+    <div class="stat">
+      <span class="stat-num">12</span>
+      <span class="stat-label">Years of Excellence</span>
+    </div>
+    <div class="stat-divider">✦</div>
+    <div class="stat">
+      <span class="stat-num">3</span>
+      <span class="stat-label">World-Class Restaurants</span>
+    </div>
+    <div class="stat-divider">✦</div>
+    <div class="stat">
+      <span class="stat-num">4.9</span>
+      <span class="stat-label">Guest Rating</span>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-visual">
+        <img src="images/home-page.webp" alt="About Visual">
+        <!-- <div class="about-img-frame">
+          <div class="about-img-fill">
+            <div class="stupa-illustration">
+              <div class="stupa-dome"></div>
+              <div class="stupa-tower"></div>
+              <div class="stupa-eyes">
+                <span class="eye"></span><span class="eye"></span>
+              </div>
+              <div class="stupa-base"></div>
+              <div class="stupa-steps"></div>
+              <div class="stupa-glow"></div>
+            </div>
+          </div>
+          <div class="about-tag">Est. 2013</div>
+        </div> -->
+        <div class="about-accent-block"></div>
+      </div>
+      <div class="about-text">
+        <p class="section-eyebrow">Our Story</p>
+        <h2 class="section-title">A Legacy Rooted in<br/><em>Himalayan Hospitality</em></h2>
+        <p>Hayat Hotel was born from a vision — to create a space where the ancient spiritual energy of Boudhanath and the comforts of modern luxury coexist harmoniously. Founded in 2013, we have since become one of Kathmandu's most beloved retreats.</p>
+        <p>Our hotel stands just 200 metres from the magnificent Boudhanath Stupa, a UNESCO World Heritage Site, offering guests immediate access to one of the largest Buddhist stupas in the world.</p>
+        <div class="about-features">
+          <div class="af-item">
+            <span class="af-icon">🏔</span>
+            <div>
+              <strong>Himalayan Views</strong>
+              <span>Wake up to breathtaking mountain vistas</span>
+            </div>
+          </div>
+          <div class="af-item">
+            <span class="af-icon">🪷</span>
+            <div>
+              <strong>Spiritual Location</strong>
+              <span>Steps from UNESCO Boudhanath Stupa</span>
+            </div>
+          </div>
+          <div class="af-item">
+            <span class="af-icon">🍽</span>
+            <div>
+              <strong>Authentic Cuisine</strong>
+              <span>Nepali, Tibetan and international flavours</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SERVICES ═══ -->
+  <section id="services">
+    <div class="section-header center">
+      <p class="section-eyebrow">What We Offer</p>
+      <h2 class="section-title">Curated <em>Experiences</em></h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card" style="--card-delay: 0s">
+        <div class="service-icon">🛏</div>
+        <h3>Luxury Accommodation</h3>
+        <p>48 thoughtfully designed rooms and suites featuring handcrafted Nepali décor, premium bedding, and panoramic views.</p>
+      </div>
+      <div class="service-card" style="--card-delay: .1s">
+        <div class="service-icon">🍜</div>
+        <h3>Fine Dining</h3>
+        <p>Three distinct dining experiences — from rooftop Himalayan fusion to intimate Tibetan tea ceremonies.</p>
+      </div>
+      <div class="service-card" style="--card-delay: .2s">
+        <div class="service-icon">🧘</div>
+        <h3>Wellness & Spa</h3>
+        <p>Traditional Ayurvedic therapies, yoga sessions overlooking the stupa, and a heated rooftop pool.</p>
+      </div>
+      <div class="service-card" style="--card-delay: .3s">
+        <div class="service-icon">🗺</div>
+        <h3>Guided Tours</h3>
+        <p>Expert-led excursions to Pashupatinath, Swayambhunath, Bhaktapur Durbar Square, and Himalayan trekking trails.</p>
+      </div>
+      <div class="service-card" style="--card-delay: .4s">
+        <div class="service-icon">🎪</div>
+        <h3>Events & Banquets</h3>
+        <p>Grand ballrooms and intimate terrace venues for weddings, corporate retreats, and cultural celebrations.</p>
+      </div>
+      <div class="service-card" style="--card-delay: .5s">
+        <div class="service-icon">🚗</div>
+        <h3>Concierge & Transport</h3>
+        <p>24/7 concierge desk, airport transfers, private car hire, and exclusive Himalayan helicopter tours.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ ROOMS ═══ -->
+  <section id="rooms">
+    <div class="section-header center">
+      <p class="section-eyebrow">Our Accommodations</p>
+      <h2 class="section-title">Choose Your <em>Sanctuary</em></h2>
+    </div>
+    <div class="rooms-grid">
+      <div class="room-card">
+        <div class="room-img ri-deluxe">
+          <img src="images/deluxe.webp" alt="Deluxe Room">
+          <div class="room-stars">★★★</div>
+          <div class="room-overlay-text">Deluxe Room</div>
+        </div>
+        <div class="room-info">
+          <h3>Deluxe Room</h3>
+          <p>Cozy elegance with garden or courtyard views, featuring traditional wood-panelled interiors.</p>
+          <div class="room-meta">
+            <span>30 m²</span>
+            <span>2 Guests</span>
+            <span>Garden View</span>
+          </div>
+          <div class="room-price">From <strong>NPR 8,500</strong>/night</div>
+          <a href="#booking" class="btn-room">Book This Room</a>
+        </div>
+      </div>
+      <div class="room-card featured">
+        <div class="room-badge-tag">Most Popular</div>
+        <div class="room-img ri-stupa">
+          <img src="images/stupa-view-suite.jpeg" alt="Stupa View Suite">
+          <div class="room-stars">★★★★</div>
+          <div class="room-overlay-text">Stupa View Suite</div>
+        </div>
+        <div class="room-info">
+          <h3>Stupa View Suite</h3>
+          <p>Wake to the golden spire of Boudhanath. Floor-to-ceiling windows frame a living masterpiece.</p>
+          <div class="room-meta">
+            <span>52 m²</span>
+            <span>3 Guests</span>
+            <span>Stupa View</span>
+          </div>
+          <div class="room-price">From <strong>NPR 18,500</strong>/night</div>
+          <a href="#booking" class="btn-room">Book This Room</a>
+        </div>
+      </div>
+      <div class="room-card">
+        <div class="room-img ri-himalayan">
+          <img src="images/himalayan-suite.jpg" alt="Himalayan Suite">
+          <div class="room-stars">★★★★★</div>
+          <div class="room-overlay-text">Himalayan Suite</div>
+        </div>
+        <div class="room-info">
+          <h3>Himalayan Suite</h3>
+          <p>Our pinnacle of luxury — a private terrace, Butler service, and sweeping Himalayan panoramas.</p>
+          <div class="room-meta">
+            <span>90 m²</span>
+            <span>4 Guests</span>
+            <span>Mountain View</span>
+          </div>
+          <div class="room-price">From <strong>NPR 42,000</strong>/night</div>
+          <a href="#booking" class="btn-room">Book This Room</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ GALLERY ═══ -->
+  <section id="gallery">
+    <div class="section-header center">
+      <p class="section-eyebrow">Visual Journey</p>
+      <h2 class="section-title">A Glimpse of <em>Hayat</em></h2>
+    </div>
+    <div class="gallery-mosaic">
+      <div class="gal-item g-tall g-amber">
+        <img src="images/roof-top.png" alt="Rooftop Lounge">
+        <div class="gal-label">Rooftop Lounge</div>
+      </div>
+      <div class="gal-item g-wide g-crimson">
+        <img src="images/grand-dining-hall.jpg" alt="The Grand Dining Hall">
+        <div class="gal-label">The Grand Dining Hall</div>
+      </div>
+      <div class="gal-item g-teal">
+        <img src="images/wellness-spa.jpeg" alt="Wellness Spa">
+        <div class="gal-label">Wellness Spa</div>
+      </div>
+      <div class="gal-item g-indigo">
+        <img src="images/stupa-sunrise-view.jpeg" alt="Stupa Sunrise View">
+        <div class="gal-label">Stupa Sunrise View</div>
+      </div>
+      <div class="gal-item g-tall g-forest">
+        <img src="images/heritage-suite.jpg" alt="Heritage Suite">
+        <div class="gal-label">Heritage Suite</div>
+      </div>
+      <div class="gal-item g-ochre">
+        <img src="images/nepali-cusine.jpeg" alt="Nepali Cuisine">
+        <div class="gal-label">Nepali Cuisine</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section id="contact">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p class="section-eyebrow">Find Us</p>
+        <h2 class="section-title">Get in <em>Touch</em></h2>
+        <div class="contact-details">
+          <div class="cd-item">
+            <span class="cd-icon">📍</span>
+            <div>
+              <strong>Address</strong>
+              <span>Boudha Sadak, Ward No. 6<br/>Boudha, Kathmandu 44600, Nepal</span>
+            </div>
+          </div>
+          <div class="cd-item">
+            <span class="cd-icon">📞</span>
+            <div>
+              <strong>Phone</strong>
+              <span>+977-1-4912345<br/>+977-9841-000123</span>
+            </div>
+          </div>
+          <div class="cd-item">
+            <span class="cd-icon">✉</span>
+            <div>
+              <strong>Email</strong>
+              <span>reservations@hayathotel.com.np<br/>info@hayathotel.com.np</span>
+            </div>
+          </div>
+          <div class="cd-item">
+            <span class="cd-icon">🕐</span>
+            <div>
+              <strong>Reception Hours</strong>
+              <span>Open 24 hours, 7 days a week</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-map-placeholder">
+        <div class="map-mock">
+          <div class="map-pin">📍</div>
+          <p>Hayat Hotel</p>
+          <span>Boudha, Kathmandu</span>
+          <a href="https://maps.google.com" target="_blank" class="map-link">Open in Google Maps →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ BOOKING FORM ═══ -->
+  <section id="booking">
+    <div class="section-header center">
+      <p class="section-eyebrow">Reservations</p>
+      <h2 class="section-title">Book Your <em>Stay</em></h2>
+    </div>
+    <div class="booking-wrapper">
+      <form class="booking-form" id="bookingForm" onsubmit="handleSubmit(event)">
+        <div class="form-section-title">Personal Information</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">First Name *</label>
+            <input type="text" id="fname" name="fname" placeholder="Aarav" required />
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name *</label>
+            <input type="text" id="lname" name="lname" placeholder="Sharma" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" placeholder="+977 98XXXXXXXX" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nationality">Nationality</label>
+            <input type="text" id="nationality" name="nationality" placeholder="Nepali" />
+          </div>
+          <div class="form-group">
+            <label for="guests">Number of Guests *</label>
+            <select id="guests" name="guests" required>
+              <option value="">Select</option>
+              <option value="1">1 Guest</option>
+              <option value="2">2 Guests</option>
+              <option value="3">3 Guests</option>
+              <option value="4">4 Guests</option>
+              <option value="5+">5+ Guests</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-section-title" style="margin-top:2rem">Stay Details</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="checkin">Check-In Date *</label>
+            <input type="date" id="checkin" name="checkin" required />
+          </div>
+          <div class="form-group">
+            <label for="checkout">Check-Out Date *</label>
+            <input type="date" id="checkout" name="checkout" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="room-type">Room Type *</label>
+            <select id="room-type" name="room-type" required>
+              <option value="">Select Room</option>
+              <option value="deluxe">Deluxe Room (★★★)</option>
+              <option value="stupa-suite">Stupa View Suite (★★★★)</option>
+              <option value="himalayan-suite">Himalayan Suite (★★★★★)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="bed-type">Bed Preference</label>
+            <select id="bed-type" name="bed-type">
+              <option value="">No preference</option>
+              <option value="king">King Bed</option>
+              <option value="twin">Twin Beds</option>
+              <option value="double">Double Beds</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-section-title" style="margin-top:2rem">Preferences & Special Requests</div>
+        <div class="form-checkboxes">
+          <label class="checkbox-label">
+            <input type="checkbox" name="prefs" value="airport-transfer" />
+            <span>Airport Transfer</span>
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="prefs" value="spa" />
+            <span>Spa Package</span>
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="prefs" value="yoga" />
+            <span>Morning Yoga Sessions</span>
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="prefs" value="guided-tour" />
+            <span>Guided City Tour</span>
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="prefs" value="honeymoon" />
+            <span>Honeymoon Setup</span>
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" name="prefs" value="vegetarian" />
+            <span>Vegetarian Meals</span>
+          </label>
+        </div>
+        <div class="form-group" style="margin-top:1.2rem">
+          <label for="special">Special Requests</label>
+          <textarea id="special" name="special" placeholder="Any dietary requirements, accessibility needs, celebration arrangements..." rows="4"></textarea>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="heard">How did you hear about us?</label>
+            <select id="heard" name="heard">
+              <option value="">Select</option>
+              <option value="google">Google Search</option>
+              <option value="instagram">Instagram</option>
+              <option value="friend">Friend / Family</option>
+              <option value="travel-agent">Travel Agent</option>
+              <option value="tripadvisor">TripAdvisor</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="purpose">Purpose of Visit</label>
+            <select id="purpose" name="purpose">
+              <option value="">Select</option>
+              <option value="leisure">Leisure / Vacation</option>
+              <option value="pilgrimage">Pilgrimage / Spiritual</option>
+              <option value="trekking">Trekking / Adventure</option>
+              <option value="business">Business</option>
+              <option value="honeymoon">Honeymoon</option>
+              <option value="family">Family Trip</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn-submit">Confirm Reservation ✦</button>
+      </form>
+      <div class="booking-success" id="bookingSuccess" style="display:none">
+        <div class="success-icon">✦</div>
+        <h3>Reservation Received!</h3>
+        <p>Thank you for choosing Hayat Hotel. Our reservations team will contact you within 2 hours to confirm your booking.</p>
+        <p class="success-sub">A confirmation email has been sent to your address.</p>
+        <a href="#" class="btn-primary" onclick="resetForm()">Make Another Booking</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img class="logo-img" src="images/logo.png" alt="Hayat Hotel Logo">
+          <div>
+            <span class="logo-name">Hayat</span>
+            <span class="logo-sub">HOTEL & SUITES</span>
+          </div>
+        </div>
+        <p>A sanctuary of luxury beside the sacred Boudhanath Stupa, Kathmandu, Nepal.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#rooms">Rooms & Suites</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#booking">Book Now</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#">Dining</a></li>
+          <li><a href="#">Spa & Wellness</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Tours</a></li>
+          <li><a href="#">Boudha Guide</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li>Boudha Sadak, Kathmandu</li>
+          <li>+977-1-4912345</li>
+          <li>reservations@hayathotel.com.np</li>
+        </ul>
+        <div class="footer-cert">
+          <span>🏅 Nepal Tourism Board Certified</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Hayat Hotel & Suites. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
